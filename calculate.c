@@ -16,13 +16,10 @@ float calculate(char mode, float a, float b)
             case '/': return(a/b);
                       break;
 
-            case 'p': power(a,b);
             default : return (0);
                       break;
         }
 }
-void power()
-
 
 
 
